@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "no-descending-specificity": null,
+    "selector-pseudo-class-no-unknown": [ true, { "ignorePseudoClasses": [":", "global", "local"] } ],
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "property-no-unknown": [ true, {
+      "ignoreProperties": [
+        "composes"
+      ]
+    }],
+    "at-rule-no-unknown": null,
+    "indentation": 2
+  }
+}
